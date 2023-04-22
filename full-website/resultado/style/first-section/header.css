@@ -1,0 +1,40 @@
+.first-section {
+    height: 874px;
+    background-size: cover;     
+    background-repeat: no-repeat;
+    background-image: url(../../img/background.svg);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.logotipo {
+    max-width: 191px;
+}
+
+.navigation {
+    align-self: center;
+    min-width: 323px;
+}
+
+.rede-social {
+    justify-content: flex-end;
+    min-width: 191px;
+    align-self: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: white;
+    font-family: 'Playfair Display';
+    gap: 28px;
+    font-weight: 500;
+    font-size: 18px;
+    list-style: none;
+    align-items: center;
+}

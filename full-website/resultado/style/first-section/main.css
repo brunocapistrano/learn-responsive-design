@@ -1,0 +1,57 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    display: flex;
+}
+
+.title-center {
+    align-items: center;
+    flex-direction: column;
+    max-width: 630px;
+}
+
+h1 {
+    display: flex;
+    margin: 0;
+    color: white;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 100px;
+    font-weight: 900;
+    
+    max-height: 100px;
+}
+
+.second-h1 {
+    max-height: 70px;
+}
+
+.e {
+    font-size: 200px;
+    max-height: 210px;
+}
+
+p {
+    padding-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+button {
+    font-family: 'Playfair Display';
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    padding: 10px 60px 10px 60px;
+    font-size: 18px;
+    border: none;
+}
+
+.trevo {
+    padding-top: 30px;
+}
